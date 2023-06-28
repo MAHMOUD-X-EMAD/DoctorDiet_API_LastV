@@ -16,7 +16,10 @@ namespace DoctorDiet.Profiles
             CreateMap<Plan, CustomPlan>()
                 .ForMember(dst => dst.PatientId, opt => opt.Ignore())
                 .ForMember(dst => dst.Id, opt => opt.Ignore())
-                .ForMember(dst => dst.DaysCustomPlan, opt => opt.Ignore());
+                .ForMember(dst => dst.DaysCustomPlan, opt => opt.Ignore())
+                .ForMember(dst => dst.goal, opt => opt.Ignore())
+            .ForMember(dst => dst.DoctorName, opt => opt.Ignore());
+
 
 
             CreateMap<Day, DayCustomPlan>()
@@ -33,7 +36,7 @@ namespace DoctorDiet.Profiles
                 .ForMember(dst => dst.MealId, opt => opt.Ignore())
                 .ForMember(dst => dst.DayId, opt => opt.Ignore());
 
-      
+            CreateMap<CustomPlan, ShowCustomPlanDto>();
 
             CreateMap<CustomPlan, CustomPlanDTO>()
     .ForMember(dest => dest.DaysCustomPlan, opt => opt.MapFrom(src => src.DaysCustomPlan));
@@ -54,8 +57,12 @@ namespace DoctorDiet.Profiles
             // Mapping configuration for CustomMeals and CustomMealsDTO
             CreateMap<MealCustomPlan, CustomMealsDTO>();
 
+           
+
             CreateMap<UpdateMealDTO, MealCustomPlan>()
                 .ForPath(src => src.Image, opt => opt.Ignore());
+
+
         }
 
      

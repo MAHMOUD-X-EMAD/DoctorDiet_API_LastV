@@ -18,6 +18,8 @@ namespace DoctorDiet.Models
         public virtual Patient Patient { get; set; }
         [DefaultValue("false")]
         public bool IsDeleted { get; set; }
+        public string goal { get; set; }
+        public string DoctorName { get; set; }
 
 
     }

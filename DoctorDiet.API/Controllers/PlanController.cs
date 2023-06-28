@@ -89,7 +89,7 @@ namespace DoctorDiet.API.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("DeletePlan{id}")]
         public IActionResult DeletePlan(int id)
         {
             _planService.DeletePlan(id);
@@ -97,7 +97,32 @@ namespace DoctorDiet.API.Controllers
             return NoContent();
         }
 
+        [HttpGet("GetMealById{id}")]
+        public IActionResult GetMealById(int id)
+        {
+            MealDTO meal = _planService.GetMealById(id);
+            if (meal == null)
+                return NotFound();
 
+            
+            return Ok(meal);
+        }
+
+        [HttpPut("UpdateMeal")]
+        public IActionResult UpdateMealInPlan([FromForm] UpdateMealDTO mealPlanDTO, [FromForm] params string[] properties)
+        {
+            List<string> Properties = properties[0].Split(',').ToList();
+            string[] propertiesArray = Properties.ToArray();
+
+            if (ModelState.IsValid)
+            {
+                _planService.UpdateMealInPlan(mealPlanDTO, propertiesArray);
+                _unitOfWork.CommitChanges();
+                return Ok();
+            }
+            return BadRequest();
+
+        }
 
     }
 }

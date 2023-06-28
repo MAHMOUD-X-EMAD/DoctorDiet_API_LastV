@@ -8,6 +8,7 @@ namespace DoctorDiet.Dto
 {
     public class DayDTO
     {
+      public int Id { get; set; } 
       public  List<MealDTO> Meals { get; set; }
     }
 }

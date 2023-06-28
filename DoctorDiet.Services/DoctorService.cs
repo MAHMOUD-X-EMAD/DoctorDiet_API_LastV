@@ -34,10 +34,12 @@ namespace DoctorDiet.Services
 
         public DoctorGetDataDto GetDoctorData(string id)
         {
+            Doctor doctor = _repositry.Get(d => d.Id == id)
+                .Include(d=>d.ApplicationUser)
+                .Include(d=>d.ContactInfo)
+                .FirstOrDefault();
 
-            DoctorGetDataDto doctorDataDTO =
-             GetListOfDoctors()
-            .FirstOrDefault(d => d.Id == id);
+            DoctorGetDataDto doctorDataDTO = _mapper.Map<DoctorGetDataDto>(doctor);
             return doctorDataDTO;
 
         }
@@ -49,14 +51,15 @@ namespace DoctorDiet.Services
             return doctor;
         }
 
-        public List<Notes> GetDoctorNotes(GetDoctorNotesDTO getPatientNotesDTO)
-        {
-            List<Notes> doctorNotes = _doctorRepository.GetNotes(getPatientNotesDTO);
+    public List<GetDoctorNoteData> GetDoctorNotes(GetDoctorNotesDTO getDoctorNotesDTO)
+    {
+      IQueryable<DoctorNotes> doctorNotes = _doctorRepository.GetNotes(getDoctorNotesDTO);
+      List<GetDoctorNoteData> doctorNoteDatas = _mapper.ProjectTo<GetDoctorNoteData>(doctorNotes).ToList();
 
-            return doctorNotes;
-        }
+      return doctorNoteDatas;
+    }
 
-        public void EditDoctorData(DoctorDataDTO doctorData, params string[] properties)
+    public void EditDoctorData(DoctorDataDTO doctorData, params string[] properties)
         {
             using var dataStream = new MemoryStream();
             doctorData.ProfileImage.CopyTo(dataStream);
@@ -70,22 +73,22 @@ namespace DoctorDiet.Services
         }
 
 
-        public IQueryable<DoctorGetDataDto> GetListOfDoctors()
+        public List<ShowDoctorDTO> GetListOfDoctors()
         {
-            IQueryable<Doctor> doctors = _repositry.GetAll();
-            IQueryable<DoctorGetDataDto> DoctorsDto = _mapper.ProjectTo<DoctorGetDataDto>(doctors);
+            IQueryable<Doctor> doctors = _repositry.GetAll().Include(d=>d.ApplicationUser);
+            List<ShowDoctorDTO> DoctorsDto = _mapper.ProjectTo<ShowDoctorDTO>(doctors).ToList();
 
             return DoctorsDto;
         }
 
-        public string AddNote(DoctorNotesDTO doctorNotesDto)
-        {
-            Notes Notes = _mapper.Map<Notes>(doctorNotesDto);
-            string Status = _doctorRepository.AddNote(Notes);
-            _unitOfWork.SaveChanges();
+    public string AddNote(DoctorNotesDTO doctorNotesDto)
+    {
+      DoctorNotes Notes = _mapper.Map<DoctorNotes>(doctorNotesDto);
+      string Status = _doctorRepository.AddNote(Notes);
+      _unitOfWork.SaveChanges();
 
-            return Status;
-        }
-
+      return Status;
     }
+
+  }
 }

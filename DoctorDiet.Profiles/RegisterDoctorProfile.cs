@@ -42,6 +42,10 @@ namespace Sakiny.Profiles
          .ForPath(dest => dest.ApplicationUser.ProfileImage, opt => opt.MapFrom(src => src.ProfileImage))
          .ReverseMap();
 
-    }
+
+            CreateMap<Doctor, ShowDoctorDTO>()
+         .ForMember(dest => dest.ProfileImage, opt => opt.MapFrom(src => src.ApplicationUser.ProfileImage));
+
+        }
     }
 }

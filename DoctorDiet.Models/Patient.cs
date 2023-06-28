@@ -28,6 +28,7 @@ namespace DoctorDiet.Models
         //not eat will handel at backend  contain string
         public virtual ApplicationUser ApplicationUser { get; set; }
         public virtual List<CustomPlan> CustomPlans { get; set; }
+        public virtual List<DoctorNotes> DoctorNotes { get; set; }
         public virtual string ActivityRates { get; set; }
         [DefaultValue("false")]
         public bool IsDeleted { get; set; }

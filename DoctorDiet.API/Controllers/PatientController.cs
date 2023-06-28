@@ -53,12 +53,12 @@ namespace DoctorDiet.API.Controllers
 
         }
 
-        [HttpGet("GetPatientHistory{PatientId}")]
+        [HttpGet("GetPatientHistory/{PatientId}")]
         public IActionResult GetPatientHistory(string PatientId)
         {
             if (ModelState.IsValid)
             {
-                List<CustomPlan> customsPlans = _patientService.GetPatientHistory(PatientId);
+                List<ShowCustomPlanDto> customsPlans = _patientService.GetPatientHistory(PatientId);
                 return Ok(customsPlans);
             }
             else
@@ -68,31 +68,47 @@ namespace DoctorDiet.API.Controllers
 
         }
 
-      [HttpPost("AddPatientNote")]
-      public IActionResult AddNote(PatientNotesDTO patientNotesDto)
-      {
-        _patientService.AddNote(patientNotesDto);
-        _unitOfWork.CommitChanges();
-        return NoContent();
-      }
+    [HttpPost("AddPatientNote")]
+    public IActionResult AddNote(PatientNotesDTO patientNotesDto)
+    {
+      _patientService.AddNote(patientNotesDto);
+      _unitOfWork.CommitChanges();
+      return NoContent();
+    }
 
-      [HttpPost("GetPatientNotes")]
-      public IActionResult GetNote(GetPatientNotesDTO getPatientNotesDTO)
-      {
-          List<PatientNotes> PatientNotes = _patientService.GetPateintNotes(getPatientNotesDTO);
-          _unitOfWork.CommitChanges();
-          return Ok(PatientNotes);
-      }
+    [HttpGet("GetPatientsNotes")]
+    public IActionResult GetNote(string patientId, int dayId)
+    {
+      GetPatientNotesDTO getPatientNotesDTO = new GetPatientNotesDTO();
+      getPatientNotesDTO.patientId = patientId;
+      getPatientNotesDTO.dayId = dayId;
+      List<GetPatientNoteData> PatientNotes = _patientService.GetPateintNotes(getPatientNotesDTO);
 
-        [HttpPut("ConfirmAccount")]
+      return Ok(PatientNotes);
+    }
+
+    [HttpPut("ConfirmAccount")]
         public IActionResult ConfirmAccount(SubscribeDto subscribeDto)
         {
             if (ModelState.IsValid)
             {
                 string Status = _patientService.Confirm(subscribeDto);
-                _unitOfWork.CommitChanges();
+                if (Status != "")
+                {
+                    _unitOfWork.CommitChanges();
 
-                return Ok(Status);
+                    return Ok(new
+                    {
+                        msg=Status
+                    });
+                }
+                else
+                {
+                    return Ok(new
+                    {
+                        msg="NotFound"
+                    });
+                }
             }
             else
             {
@@ -110,7 +126,10 @@ namespace DoctorDiet.API.Controllers
                 string Status = _patientService.Reject(subscribeDto);
                 _unitOfWork.CommitChanges();
 
-                return Ok(Status);
+                return Ok(new
+                {
+                    msg=Status
+                });
             }
             else
             {
@@ -142,7 +161,7 @@ namespace DoctorDiet.API.Controllers
         [HttpGet("patientDataDTO/{patientid}")]
         public IActionResult GetPatientDtoById(string patientid)
         {
-            var patient = _patientService.GetPatientDataDTO(patientid);
+            UserDataDTO patient = _patientService.GetPatientDataDTO(patientid);
 
             return Ok(patient);
 
@@ -150,8 +169,8 @@ namespace DoctorDiet.API.Controllers
 
     [HttpGet("patientDTO/{patientid}")]
     public IActionResult GetPatientDto(string patientid)
-    {
-      var patient = _patientService.GetPatientDTO(patientid);
+   {
+      PatientDTO patient = _patientService.GetPatientDTO(patientid);
 
       return Ok(patient);
 
@@ -185,23 +204,60 @@ namespace DoctorDiet.API.Controllers
             }
         }
 
-        [HttpPut("PatientId")]
-        public IActionResult UpdatePatient(string PatientId, RegisterPatientDto registerPatientDto, params string[] updatedProp)
+        [HttpPut("EditPatientData")]
+        public IActionResult EditPatientData([FromForm] EditPatientDto patientData, [FromForm] params string[] properties)
         {
-
-
+            List<string> Properties = properties[0].Split(',').ToList();
+            string[] propertiesArray = Properties.ToArray();
             if (ModelState.IsValid)
             {
+                _patientService.EditPatientData(patientData, propertiesArray);
+                _unitOfWork.CommitChanges();
+                return Ok(new
+                {
+                    msg="done"
+                });
+            }
 
-                _patientService.UpdatePatient(PatientId, registerPatientDto, updatedProp);
+
+            else
+            {
+                return BadRequest(ModelState);
+            }
+
+        }
+
+
+        [HttpGet("GetIFPatientInSubscription/{patientid}")]
+        public IActionResult GetIFPatientInSubscription(string patientid)
+        {
+            string Status = _patientService.GetStatus(patientid);
+
+            return Ok(new
+            {
+                msg = Status
+            });
+
+        }
+
+        [HttpPut("CanceledSubscription")]
+        public IActionResult CanceledSubscription(SubscribeDto subscribeDto)
+        {
+            if (ModelState.IsValid)
+            {
+                string Status = _patientService.CancelStatus(subscribeDto);
                 _unitOfWork.CommitChanges();
 
-                return Ok(" Successfully Updated");
+                return Ok(new
+                {
+                    msg = Status
+                });
             }
             else
             {
                 return BadRequest(ModelState);
             }
+
 
         }
 

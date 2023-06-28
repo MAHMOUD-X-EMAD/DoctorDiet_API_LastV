@@ -164,11 +164,12 @@ IMapper mapper)
       _context.PatientNotes.Add(patientNotes);
       return "Success";
     }
-        
-    public List<PatientNotes> GetNotes(GetPatientNotesDTO getPatientNotesDTO)
+
+    public IQueryable<PatientNotes> GetNotes(GetPatientNotesDTO getPatientNotesDTO)
     {
-        return _context.PatientNotes.Where(x=> x.DayId == getPatientNotesDTO.dayId && x.PatientId == getPatientNotesDTO.patientId).Include(x=>x.Patient).Include(x => x.Day).ToList();
-      
+      return _context.PatientNotes.Where(x => x.PatientId == getPatientNotesDTO.patientId)
+      .Include(x => x.Patient);
+
     }
 
 

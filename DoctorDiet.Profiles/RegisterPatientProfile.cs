@@ -43,6 +43,7 @@ namespace DoctorDiet.Profiles
 
 
       CreateMap<DoctorPatientBridge, PatientDTO>()
+                .ForMember(src => src.Id, opt => opt.MapFrom(dst => dst.Patient.Id))
                .ForMember(src => src.FullName, opt => opt.MapFrom(dst => dst.Patient.FullName))
                .ForMember(src => src.Gender, opt => opt.MapFrom(dst => dst.Patient.Gender))
                .ForMember(src => src.Email, opt => opt.MapFrom(dst => dst.Patient.ApplicationUser.Email))
@@ -55,7 +56,7 @@ namespace DoctorDiet.Profiles
                .ForMember(src => src.NoEat, opt => opt.MapFrom(dst => dst.Patient.NoEat))
                .ForMember(src => src.ActivityRates, opt => opt.MapFrom(dst => dst.Patient.ActivityRates))
                .ForMember(src => src.Diseases, opt => opt.MapFrom(dst => dst.Patient.Diseases))
-      .ForMember(dst => dst.ProfileImage, opt =>
+               .ForMember(dst => dst.ProfileImage, opt =>
                opt.MapFrom(src => src.Patient.ApplicationUser.ProfileImage));
 
 
@@ -63,7 +64,12 @@ namespace DoctorDiet.Profiles
 
 
 
-      ;
+
+            CreateMap<EditPatientDto, Patient>()
+                      .ForPath(dest => dest.ApplicationUser.Email, opt => opt.MapFrom(src => src.Email))
+
+                      .ForPath(dst => dst.ApplicationUser.ProfileImage, opt => opt.Ignore())
+                      .ForPath(dest => dest.ApplicationUser.PhoneNumber, opt => opt.MapFrom(src => src.PhoneNumber));
 
 
 

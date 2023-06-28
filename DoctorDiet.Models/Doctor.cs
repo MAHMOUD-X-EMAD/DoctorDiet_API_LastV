@@ -23,8 +23,9 @@ namespace DoctorDiet.Models
         public bool IsDeleted { get; set; }
 
         public List<ContactInfo>? ContactInfo { get; set; }
+    public List<PatientNotes>? PatientNotes { get; set; }
 
-        public virtual List<Plan>? Plan { get; set; }
+    public virtual List<Plan>? Plan { get; set; }
 
       public virtual List<DoctorPatientBridge>? DoctorPatientBridge { get; set; }
 

@@ -91,7 +91,8 @@ namespace DoctorDiet.Repository.Repositories
                     {
                          if (properties.Contains(userproperty.Metadata.Name))
                         {
-                            userproperty.CurrentValue = applicationUserValue.GetType().GetProperty(userproperty.Metadata.Name).GetValue(applicationUserValue);
+                            userproperty.CurrentValue = applicationUserValue.GetType().
+                                GetProperty(userproperty.Metadata.Name).GetValue(applicationUserValue);
                             userproperty.IsModified = true;
                         }
                     }

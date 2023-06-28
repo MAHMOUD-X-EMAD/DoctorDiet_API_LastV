@@ -24,7 +24,7 @@ namespace DoctorDiet.Dto
 
         public string Specialization { get; set; }
         public string Location { get; set; }
-        public List<ContactInfo> contactInfo { get; set; }
+        public List<ContactInfoDTO> contactInfo { get; set; }
 
     }
 }

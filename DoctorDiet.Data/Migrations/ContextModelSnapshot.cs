@@ -208,6 +208,10 @@ namespace DoctorDiet.Data.Migrations
                     b.Property<DateTime>("DateTo")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("DoctorName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Duration")
                         .HasColumnType("int");
 
@@ -217,6 +221,10 @@ namespace DoctorDiet.Data.Migrations
                     b.Property<string>("PatientId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("goal")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -244,6 +252,27 @@ namespace DoctorDiet.Data.Migrations
                     b.HasIndex("PlanId");
 
                     b.ToTable("Day");
+                });
+
+            modelBuilder.Entity("DoctorDiet.Models.DayCustomPlan", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CustomPlanId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomPlanId");
+
+                    b.ToTable("DayCustomPlans");
                 });
 
             modelBuilder.Entity("DoctorDiet.Models.DayMealBridge", b =>
@@ -321,6 +350,46 @@ namespace DoctorDiet.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Doctors");
+                });
+
+            modelBuilder.Entity("DoctorDiet.Models.DoctorNotes", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("DayCustomPlanId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DoctorId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PatientId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DayCustomPlanId");
+
+                    b.HasIndex("DoctorId");
+
+                    b.HasIndex("PatientId");
+
+                    b.ToTable("DoctorNotes");
                 });
 
             modelBuilder.Entity("DoctorDiet.Models.DoctorPatientBridge", b =>
@@ -465,37 +534,6 @@ namespace DoctorDiet.Data.Migrations
                     b.ToTable("NoEat");
                 });
 
-            modelBuilder.Entity("DoctorDiet.Models.Notes", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("DayId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("DoctorId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Text")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("DayId");
-
-                    b.HasIndex("DoctorId");
-
-                    b.ToTable("Notes");
-                });
-
             modelBuilder.Entity("DoctorDiet.Models.Patient", b =>
                 {
                     b.Property<string>("Id")
@@ -552,8 +590,15 @@ namespace DoctorDiet.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("DayId")
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("DayCustomPlanId")
                         .HasColumnType("int");
+
+                    b.Property<string>("DoctorId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -568,7 +613,9 @@ namespace DoctorDiet.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DayId");
+                    b.HasIndex("DayCustomPlanId");
+
+                    b.HasIndex("DoctorId");
 
                     b.HasIndex("PatientId");
 
@@ -589,7 +636,8 @@ namespace DoctorDiet.Data.Migrations
                     b.Property<int>("CaloriesTo")
                         .HasColumnType("int");
 
-                    b.Property<string>("DoctorId")
+                    b.Property<string>("DoctorID")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("Duration")
@@ -600,30 +648,9 @@ namespace DoctorDiet.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DoctorId");
+                    b.HasIndex("DoctorID");
 
                     b.ToTable("Plans");
-                });
-
-            modelBuilder.Entity("DoctorDiet.Models.customDayDTO", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CustomPlanId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CustomPlanId");
-
-                    b.ToTable("DayCustomPlans");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -825,6 +852,17 @@ namespace DoctorDiet.Data.Migrations
                     b.Navigation("Plan");
                 });
 
+            modelBuilder.Entity("DoctorDiet.Models.DayCustomPlan", b =>
+                {
+                    b.HasOne("DoctorDiet.Models.CustomPlan", "CustomPlan")
+                        .WithMany("DaysCustomPlan")
+                        .HasForeignKey("CustomPlanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CustomPlan");
+                });
+
             modelBuilder.Entity("DoctorDiet.Models.DayMealBridge", b =>
                 {
                     b.HasOne("DoctorDiet.Models.Day", "Day")
@@ -846,7 +884,7 @@ namespace DoctorDiet.Data.Migrations
 
             modelBuilder.Entity("DoctorDiet.Models.DayMealCustomPlanBridge", b =>
                 {
-                    b.HasOne("DoctorDiet.Models.customDayDTO", "DayCustomPlan")
+                    b.HasOne("DoctorDiet.Models.DayCustomPlan", "DayCustomPlan")
                         .WithMany("DayMealCustomPlanBridge")
                         .HasForeignKey("DayId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -872,6 +910,33 @@ namespace DoctorDiet.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("ApplicationUser");
+                });
+
+            modelBuilder.Entity("DoctorDiet.Models.DoctorNotes", b =>
+                {
+                    b.HasOne("DoctorDiet.Models.DayCustomPlan", "DayCustomPlan")
+                        .WithMany()
+                        .HasForeignKey("DayCustomPlanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DoctorDiet.Models.Doctor", "Doctor")
+                        .WithMany()
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DoctorDiet.Models.Patient", "Patient")
+                        .WithMany("DoctorNotes")
+                        .HasForeignKey("PatientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DayCustomPlan");
+
+                    b.Navigation("Doctor");
+
+                    b.Navigation("Patient");
                 });
 
             modelBuilder.Entity("DoctorDiet.Models.DoctorPatientBridge", b =>
@@ -915,25 +980,6 @@ namespace DoctorDiet.Data.Migrations
                     b.Navigation("Patient");
                 });
 
-            modelBuilder.Entity("DoctorDiet.Models.Notes", b =>
-                {
-                    b.HasOne("DoctorDiet.Models.Day", "Day")
-                        .WithMany()
-                        .HasForeignKey("DayId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("DoctorDiet.Models.Doctor", "Doctor")
-                        .WithMany()
-                        .HasForeignKey("DoctorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Day");
-
-                    b.Navigation("Doctor");
-                });
-
             modelBuilder.Entity("DoctorDiet.Models.Patient", b =>
                 {
                     b.HasOne("DoctorDiet.Models.ApplicationUser", "ApplicationUser")
@@ -947,9 +993,15 @@ namespace DoctorDiet.Data.Migrations
 
             modelBuilder.Entity("DoctorDiet.Models.PatientNotes", b =>
                 {
-                    b.HasOne("DoctorDiet.Models.Day", "Day")
+                    b.HasOne("DoctorDiet.Models.DayCustomPlan", "DayCustomPlan")
                         .WithMany()
-                        .HasForeignKey("DayId")
+                        .HasForeignKey("DayCustomPlanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DoctorDiet.Models.Doctor", "Doctor")
+                        .WithMany("PatientNotes")
+                        .HasForeignKey("DoctorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -959,27 +1011,22 @@ namespace DoctorDiet.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Day");
+                    b.Navigation("DayCustomPlan");
+
+                    b.Navigation("Doctor");
 
                     b.Navigation("Patient");
                 });
 
             modelBuilder.Entity("DoctorDiet.Models.Plan", b =>
                 {
-                    b.HasOne("DoctorDiet.Models.Doctor", null)
+                    b.HasOne("DoctorDiet.Models.Doctor", "Doctor")
                         .WithMany("Plan")
-                        .HasForeignKey("DoctorId");
-                });
-
-            modelBuilder.Entity("DoctorDiet.Models.customDayDTO", b =>
-                {
-                    b.HasOne("DoctorDiet.Models.CustomPlan", "CustomPlan")
-                        .WithMany("DaysCustomPlan")
-                        .HasForeignKey("CustomPlanId")
+                        .HasForeignKey("DoctorID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("CustomPlan");
+                    b.Navigation("Doctor");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -1043,11 +1090,18 @@ namespace DoctorDiet.Data.Migrations
                     b.Navigation("DayMeal");
                 });
 
+            modelBuilder.Entity("DoctorDiet.Models.DayCustomPlan", b =>
+                {
+                    b.Navigation("DayMealCustomPlanBridge");
+                });
+
             modelBuilder.Entity("DoctorDiet.Models.Doctor", b =>
                 {
                     b.Navigation("ContactInfo");
 
                     b.Navigation("DoctorPatientBridge");
+
+                    b.Navigation("PatientNotes");
 
                     b.Navigation("Plan");
                 });
@@ -1066,6 +1120,8 @@ namespace DoctorDiet.Data.Migrations
                 {
                     b.Navigation("CustomPlans");
 
+                    b.Navigation("DoctorNotes");
+
                     b.Navigation("DoctorPatientBridge");
 
                     b.Navigation("NoEat");
@@ -1076,11 +1132,6 @@ namespace DoctorDiet.Data.Migrations
                     b.Navigation("Allergics");
 
                     b.Navigation("Days");
-                });
-
-            modelBuilder.Entity("DoctorDiet.Models.customDayDTO", b =>
-                {
-                    b.Navigation("DayMealCustomPlanBridge");
                 });
 #pragma warning restore 612, 618
         }

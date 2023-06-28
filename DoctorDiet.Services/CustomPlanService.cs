@@ -19,14 +19,21 @@ namespace DoctorDiet.Services
         ICustomPlanRepository _CustomPlanRepository;
         IUnitOfWork _unitOfWork;
         IPlanRepository _PlanRepository;
+        IGenericRepository<DayCustomPlan, int> _DayCustomPlanRepository;
+        IGenericRepository<MealCustomPlan, int> _MealCustomPlanRepository;
         IMapper _mapper;
 
-        public CustomPlanService(IMapper mapper, ICustomPlanRepository repository, IUnitOfWork unitOfWork, IPlanRepository PlanRepository)
+        public CustomPlanService(IMapper mapper, ICustomPlanRepository repository,
+            IUnitOfWork unitOfWork, IPlanRepository PlanRepository,
+            IGenericRepository<DayCustomPlan, int> DayCustomPlanRepository,
+            IGenericRepository<MealCustomPlan, int> _MealCustomPlanRepository)
         {
             _CustomPlanRepository = repository;
             _unitOfWork = unitOfWork;
             _PlanRepository = PlanRepository;
-            _mapper = mapper;
+            _DayCustomPlanRepository = DayCustomPlanRepository;
+            this._MealCustomPlanRepository = _MealCustomPlanRepository;
+             _mapper = mapper;
         }
 
         public IQueryable<CustomPlan> GetAllPlans()
@@ -55,18 +62,55 @@ namespace DoctorDiet.Services
 
         public CustomPlan AddCustomPlan(Patient CurrentPatient)
         {
-
-            Plan plan = _PlanRepository.GetAll().Include(d => d.Days).ThenInclude(m => m.DayMeal).ThenInclude(M => M.Meal).FirstOrDefault(p => p.CaloriesFrom <= CurrentPatient.MinCalories && p.CaloriesTo >= CurrentPatient.MaxCalories);
-
             CustomPlan customPlan = new CustomPlan();
-            customPlan = _mapper.Map<CustomPlan>(plan);
+            Plan plan = new Plan();
+            if (CurrentPatient.Goal == "weightLoss")
+            {
+                plan = _PlanRepository.GetAll()
+                    .Include(d => d.Doctor)
+                    .Include(d => d.Days)
+                    .ThenInclude(m => m.DayMeal)
+                    .ThenInclude(M => M.Meal)
+                    .FirstOrDefault(p => p.CaloriesFrom - CurrentPatient.MinCalories <= 500 && p.CaloriesTo <= CurrentPatient.MinCalories);
+            }
+            else if (CurrentPatient.Goal == "weightGain")
+            {
+                plan = _PlanRepository.GetAll()
+                    .Include(d => d.Doctor)
+                    .Include(d => d.Days)
+                    .ThenInclude(m => m.DayMeal)
+                    .ThenInclude(M => M.Meal)
+                    .FirstOrDefault(p => p.CaloriesFrom - CurrentPatient.MaxCalories >= 500 && p.CaloriesTo >= CurrentPatient.MaxCalories);
+            }
+            else if (CurrentPatient.Goal == "muscleBuilding")
+            {
+                plan = _PlanRepository.GetAll()
+                    .Include(d => d.Doctor)
+                    .Include(d => d.Days)
+                    .ThenInclude(m => m.DayMeal)
+                    .ThenInclude(M => M.Meal)
+                    .FirstOrDefault(p => p.CaloriesFrom <= CurrentPatient.MinCalories && p.CaloriesTo >= CurrentPatient.MaxCalories);
+            }
 
-            customPlan.DateFrom = DateTime.Now;
-            customPlan.DateTo = DateTime.Now.AddDays(plan.Duration);
-            customPlan.PatientId = CurrentPatient.Id;
+            if (plan != null)
+            {
+            
+                customPlan = _mapper.Map<CustomPlan>(plan);
+
+                customPlan.goal = CurrentPatient.Goal;
+                customPlan.DoctorName = plan.Doctor.FullName;
+                customPlan.DateFrom = DateTime.Now;
+                customPlan.DateTo = DateTime.Now.AddDays(plan.Duration);
+                customPlan.PatientId = CurrentPatient.Id;
 
 
-            _CustomPlanRepository.AddCustomPlan(customPlan);
+                _CustomPlanRepository.AddCustomPlan(customPlan);
+            }
+            else
+            {
+                customPlan = null;
+                return customPlan;
+            }
             _unitOfWork.SaveChanges();
 
             for (int i = 0; i < plan.Duration / plan.Days.Count; i++)
@@ -132,19 +176,49 @@ namespace DoctorDiet.Services
 
         public MealCustomPlan UpdateMealInCustomPlan(UpdateMealDTO UodateMealDTO, params string[] properties)
         {
-
-            using var dataStream = new MemoryStream();
-            UodateMealDTO.Image.CopyTo(dataStream);
-
             MealCustomPlan mealCustomPlan = _mapper.Map<MealCustomPlan>(UodateMealDTO);
 
-            mealCustomPlan.Image = dataStream.ToArray();
+            using var dataStream = new MemoryStream();
+            
+            if (UodateMealDTO.Image != null)
+            {
+                UodateMealDTO.Image.CopyTo(dataStream);
 
-
-            _CustomPlanRepository.UpdateMealCustomPlan(mealCustomPlan, properties);
+                mealCustomPlan.Image = dataStream.ToArray();
+          
+            }
+          
+               _CustomPlanRepository.UpdateMealCustomPlan(mealCustomPlan, properties);
+         
             _unitOfWork.SaveChanges();
-
             return mealCustomPlan;
+        }
+
+        public List<CustomDayDTO> GetDayCustomPlanByCusPlanId(int customPlanId)
+        {
+
+            IEnumerable<DayCustomPlan> DaysCustomPlan = _DayCustomPlanRepository.GetAll().Where(cusPlanId => cusPlanId.CustomPlanId == customPlanId);
+            IQueryable<CustomDayDTO> CustomDaysDTO = _mapper.ProjectTo<CustomDayDTO>((IQueryable)DaysCustomPlan);
+
+            return CustomDaysDTO.ToList();
+        }
+
+        public List<CustomMealsDTO> GetMealsByCusDayId(int DayCusId)
+        {
+            DayCustomPlan dayCustomPlan = _DayCustomPlanRepository.Get(X => X.Id == DayCusId).Include(dm => dm.DayMealCustomPlanBridge).ThenInclude(m => m.MealCustomPlan).FirstOrDefault();
+
+            CustomDayDTO CustomDayDTO = _mapper.Map<CustomDayDTO>(dayCustomPlan);
+
+            return CustomDayDTO.CustomMeals;
+        }
+
+
+        public CustomMealsDTO GetCustomMealByID(int id)
+        {
+
+            MealCustomPlan meals = _MealCustomPlanRepository.Get(m=>m.Id== id).FirstOrDefault();
+            CustomMealsDTO customMealsDTO =_mapper.Map<CustomMealsDTO>(meals);
+            return customMealsDTO;
         }
     }
 }

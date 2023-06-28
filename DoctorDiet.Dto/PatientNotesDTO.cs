@@ -1,4 +1,4 @@
-﻿using DoctorDiet.Models;
+using DoctorDiet.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -11,9 +11,11 @@ namespace DoctorDiet.Dto
 {
     public class PatientNotesDTO
     {
-        public int Id { get; set; }
-        public string PatientId { get; set; }
-        public int DayId { get; set; }
-        public string Text { get; set; }
-    }
+    public int Id { get; set; }
+    public string DoctorId { get; set; }
+    public string PatientId { get; set; }
+    public int DayCustomPlanId { get; set; }
+    public DateTime Date { get; set; }
+    public string Text { get; set; }
+  }
 }

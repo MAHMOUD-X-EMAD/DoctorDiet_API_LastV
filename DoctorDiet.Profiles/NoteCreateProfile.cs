@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using DoctorDiet.Dto;
 using DoctorDiet.DTO;
 using DoctorDiet.Models;
@@ -14,10 +14,16 @@ namespace DoctorDiet.Profiles
     {
         public NoteCreateProfile()
         {
-            CreateMap<NoteCreateDto, Notes>();
-            CreateMap<UpdateNoteDto,Notes>();
+      CreateMap<NoteCreateDto, DoctorNotes>();
+      CreateMap<UpdateNoteDto, DoctorNotes>();
 
-            CreateMap<DoctorNotesDTO,Notes>().ReverseMap();
-        }
+      CreateMap<DoctorNotesDTO, DoctorNotes>().ReverseMap();
+
+
+      CreateMap<PatientNotes, GetPatientNoteData>()
+         .ForMember(dst => dst.FullName, opt => opt.MapFrom(src => src.Patient.FullName));
+
+      CreateMap<DoctorNotes, GetDoctorNoteData>();
+    }
     }
 }

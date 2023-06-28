@@ -31,7 +31,6 @@ namespace DoctorDiet.Data
     public DbSet<MealCustomPlan> MealCustomPlans { get; set; }
     public DbSet<Meal> Meal { get; set; }
         public DbSet<NoEat> NoEat { get; set; }
-        public DbSet<Notes> Notes { get; set; }
         public DbSet<Patient> Patient { get; set; }
         public DbSet<CustomPlan> CustomPlans { get; set; }
         public DbSet<Plan> Plans { get; set; }
@@ -40,8 +39,9 @@ namespace DoctorDiet.Data
         public DbSet<ActivityRate> ActivityRate { get; set; }
         public DbSet<ContactInfo> ContactInfo { get; set; }
         public DbSet<Goal> Goals { get; set; }
-        public DbSet<PatientNotes> PatientNotes { get; set; }
-        public DbSet<Notes> DoctorNotes { get; set; }
+    public DbSet<DoctorNotes> DoctorNotes { get; set; }
+    public DbSet<PatientNotes> PatientNotes { get; set; }
+
 
 
 

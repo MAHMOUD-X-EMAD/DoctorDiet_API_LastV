@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.API\\DoctorDiet.API.csproj": {}
+    "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.API\\DoctorDiet.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.API\\DoctorDiet.API.csproj": {
+    "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.API\\DoctorDiet.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.API\\DoctorDiet.API.csproj",
+        "projectUniqueName": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.API\\DoctorDiet.API.csproj",
         "projectName": "DoctorDiet.API",
-        "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.API\\DoctorDiet.API.csproj",
-        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.API\\obj\\",
+        "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.API\\DoctorDiet.API.csproj",
+        "packagesPath": "C:\\Users\\20106\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20106\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,23 +32,23 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj"
               }
             }
           }
@@ -139,20 +139,20 @@
         }
       }
     },
-    "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
+    "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj",
+        "projectUniqueName": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj",
         "projectName": "DoctorDiet.Data",
-        "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj",
-        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Data\\obj\\",
+        "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj",
+        "packagesPath": "C:\\Users\\20106\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20106\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -167,8 +167,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
               }
             }
           }
@@ -222,20 +222,20 @@
         }
       }
     },
-    "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
+    "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj",
+        "projectUniqueName": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj",
         "projectName": "DoctorDiet.Dto",
-        "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj",
-        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Dto\\obj\\",
+        "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj",
+        "packagesPath": "C:\\Users\\20106\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20106\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -250,8 +250,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
               }
             }
           }
@@ -291,20 +291,20 @@
         }
       }
     },
-    "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+    "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj",
+        "projectUniqueName": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj",
         "projectName": "DoctorDiet.Models",
-        "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj",
-        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\obj\\",
+        "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj",
+        "packagesPath": "C:\\Users\\20106\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20106\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -360,20 +360,20 @@
         }
       }
     },
-    "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj": {
+    "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj",
+        "projectUniqueName": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj",
         "projectName": "DoctorDiet.Profiles",
-        "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj",
-        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Profiles\\obj\\",
+        "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj",
+        "packagesPath": "C:\\Users\\20106\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Profiles\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20106\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -388,11 +388,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
               }
             }
           }
@@ -440,20 +440,20 @@
         }
       }
     },
-    "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
+    "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj",
         "projectName": "DoctorDiet.Repositories",
-        "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj",
-        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Repositories\\obj\\",
+        "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj",
+        "packagesPath": "C:\\Users\\20106\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20106\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -468,14 +468,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Data\\DoctorDiet.Data.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
               }
             }
           }
@@ -515,20 +515,20 @@
         }
       }
     },
-    "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj": {
+    "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj",
+        "projectUniqueName": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj",
         "projectName": "DoctorDiet.Services",
-        "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj",
-        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Services\\obj\\",
+        "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Services\\DoctorDiet.Services.csproj",
+        "packagesPath": "C:\\Users\\20106\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\20106\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -543,11 +543,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj"
               },
-              "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
-                "projectPath": "C:\\Users\\Electronica Care\\Desktop\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj"
+              "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
+                "projectPath": "C:\\Users\\20106\\Desktop\\اجدد حاجه جدا\\pull\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj"
               }
             }
           }

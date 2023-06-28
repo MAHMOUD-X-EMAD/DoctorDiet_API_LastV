@@ -55,7 +55,13 @@ namespace DoctorDiet.Services
         }
         public Patient GetPatientData(string id)
         {
-           Patient patient = _Patientrepositry.Get(o => o.Id == id).Include(x => x.ApplicationUser).Include(c=>c.CustomPlans).ThenInclude(d=>d.DaysCustomPlan).ThenInclude(m=>m.DayMealCustomPlanBridge).ThenInclude(m=>m.MealCustomPlan).FirstOrDefault();
+           Patient patient = _Patientrepositry.Get(o => o.Id == id)
+                .Include(x => x.ApplicationUser)
+                .Include(c=>c.CustomPlans)
+                .ThenInclude(d=>d.DaysCustomPlan)
+                .ThenInclude(m=>m.DayMealCustomPlanBridge)
+                .ThenInclude(m=>m.MealCustomPlan)
+                .FirstOrDefault();
 
             return patient;
 
@@ -101,35 +107,64 @@ namespace DoctorDiet.Services
 
         }
 
-        public List<CustomPlan> GetPatientHistory(string patientID)
+        public List<ShowCustomPlanDto> GetPatientHistory(string patientID)
         {
-            Patient patient = GetPatientData(patientID);
-            List<CustomPlan> customPlans = patient.CustomPlans;
+            IQueryable<CustomPlan> customPlans = _customPlanService.GetPlans(c => c.PatientId == patientID);
 
-            return customPlans;
-        }
-        
-        public List<PatientNotes> GetPateintNotes(GetPatientNotesDTO getPatientNotesDTO)
-        {
-            List<PatientNotes> patientNotes = _patientRepository.GetNotes(getPatientNotesDTO);
+            List<ShowCustomPlanDto> customPlanDtos = customPlans.ProjectTo<ShowCustomPlanDto>(_mapper.ConfigurationProvider).ToList();
 
-            return patientNotes;
+
+            return customPlanDtos;
         }
 
-        public string Confirm(SubscribeDto subscribeDto)
+    public List<GetPatientNoteData> GetPateintNotes(GetPatientNotesDTO getPatientNotesDTO)
+    {
+      IQueryable<PatientNotes> patientNotes = _patientRepository.GetNotes(getPatientNotesDTO);
+      List<GetPatientNoteData> patientNotesDTO = _mapper.ProjectTo<GetPatientNoteData>(patientNotes).ToList();
+
+      return patientNotesDTO;
+    }
+
+    public string Confirm(SubscribeDto subscribeDto)
         {
-            DoctorPatientBridge doctorPatientBridge = _doctorPatirentRepository.
-        Get(d => d.DoctorID == subscribeDto.DoctorID && d.PatientID == subscribeDto.PatientId).
-        FirstOrDefault();
-            doctorPatientBridge.Status = Status.Confirmed;
-            _doctorPatirentRepository.Update(doctorPatientBridge, nameof(DoctorPatientBridge.Status));
-            _unitOfWork.SaveChanges();
+            Patient patient = _Patientrepositry.GetAll()
+                .FirstOrDefault(pat => pat.Id == subscribeDto.PatientId);
+           CustomPlan customPlan=  _customPlanService.AddCustomPlan(patient);
+            if (customPlan != null)
+            {
+                _unitOfWork.SaveChanges();
 
-            Patient patient = _Patientrepositry.GetAll().FirstOrDefault(pat => pat.Id == subscribeDto.PatientId);
-            _customPlanService.AddCustomPlan(patient);
-            _unitOfWork.SaveChanges();
+                DoctorPatientBridge doctorPatientBridge = _doctorPatirentRepository.
+                Get(d => d.DoctorID == subscribeDto.DoctorID && d.PatientID == subscribeDto.PatientId).
+                FirstOrDefault();
 
-            return (doctorPatientBridge.Status).ToString();
+                doctorPatientBridge.Status = Status.Confirmed;
+                _doctorPatirentRepository.Update(doctorPatientBridge, nameof(DoctorPatientBridge.Status));
+                _unitOfWork.SaveChanges();
+
+                return (doctorPatientBridge.Status).ToString();
+            }else
+            {
+                return string.Empty;
+            }
+        }
+
+        public string GetStatus(string patientid)
+        {
+            DoctorPatientBridge doctorPatientBridges = _doctorPatirentRepository
+                .Get(p => p.PatientID == patientid && p.Status == (Status)1)
+                .FirstOrDefault();
+
+            if (doctorPatientBridges != null)
+            {
+                return doctorPatientBridges.Status.ToString();
+            }
+            else
+            {
+                return "Not Confirmed in plan";
+            }
+
+
         }
 
         public string Reject(SubscribeDto subscribeDto) 
@@ -140,6 +175,22 @@ namespace DoctorDiet.Services
             return Status;
         }
 
+        public string CancelStatus(SubscribeDto subscribeDto)
+        {
+            DoctorPatientBridge doctorPatientBridges = _doctorPatirentRepository
+                .Get(p => p.PatientID == subscribeDto.PatientId &&
+                 p.DoctorID == subscribeDto.DoctorID && p.Status == (Status)1)
+                .FirstOrDefault();
+
+            doctorPatientBridges.Status = Status.Cancled;
+
+            _doctorPatirentRepository.Update(doctorPatientBridges, nameof(DoctorPatientBridge.Status));
+            _unitOfWork.SaveChanges();
+
+            return (doctorPatientBridges.Status).ToString();
+
+
+        }
         public PatientDTO Subscription(SubscribeDto subscribeDto)
         {
            PatientDTO patientDTO= _patientRepository.Subscription(subscribeDto);
@@ -190,14 +241,7 @@ namespace DoctorDiet.Services
 
             return patientDTOs;
         }
-        public void UpdatePatient(string PatientId, RegisterPatientDto registerPatientDto, params string[] updatedProp)
-        {
-
-            Patient patient = _Patientrepositry.Get(patient => patient.Id == PatientId).FirstOrDefault();
-            patient = _mapper.Map<Patient>(registerPatientDto);
-            _Patientrepositry.Update(patient, updatedProp);
-            _unitOfWork.SaveChanges();
-        }
+        
 
     public string AddNote(PatientNotesDTO patientNotesDto)
     {
@@ -208,5 +252,107 @@ namespace DoctorDiet.Services
       return Status;
     }
 
-  }
+        public void EditPatientData(EditPatientDto patientData, params string[] properties)
+        {
+
+
+            Patient patientMapper = _mapper.Map<Patient>(patientData);
+            if (patientData.ProfileImage != null)
+            {
+                using var dataStream = new MemoryStream();
+                patientData.ProfileImage.CopyTo(dataStream);
+                         
+                patientMapper.ApplicationUser.ProfileImage = dataStream.ToArray();
+            }
+            if (properties.Contains("Weight") || properties.Contains("ActivityRates"))
+            {
+                double BMR = 0.0;
+
+                int MaxHisActivityRate = 0;
+                int MinHisActivityRate = 0;
+
+                double MinCals = 0.0;
+                double MaxCals = 0.0;
+
+                if (patientMapper.Gender == "Male")
+                {
+                    BMR = 24 * 1 * patientMapper.Weight;
+
+                    if (patientMapper.ActivityRates.Contains("veryHigh"))
+                    {
+                        MaxHisActivityRate = 120;
+                        MinHisActivityRate = 90;
+                    }
+
+                    else if (patientMapper.ActivityRates.Contains("high"))
+                    {
+                        MaxHisActivityRate = 80;
+                        MinHisActivityRate = 65;
+                    }
+
+                    else if (patientMapper.ActivityRates.Contains("regular"))
+                    {
+                        MaxHisActivityRate = 70;
+                        MinHisActivityRate = 50;
+                    }
+
+                    else if (patientMapper.ActivityRates.Contains("low"))
+                    {
+                        MaxHisActivityRate = 40;
+                        MinHisActivityRate = 25;
+                    }
+
+
+                }
+
+                else if (patientMapper.Gender == "Female")
+                {
+                    BMR = 24 * 0.9 * patientMapper.Weight;
+
+                    if (patientMapper.ActivityRates.Contains("veryHigh"))
+                    {
+                        MaxHisActivityRate = 100;
+                        MinHisActivityRate = 80;
+                    }
+
+                    else if (patientMapper.ActivityRates.Contains("high"))
+                    {
+                        MaxHisActivityRate = 70;
+                        MinHisActivityRate = 50;
+                    }
+
+                    else if (patientMapper.ActivityRates.Contains("regular"))
+                    {
+                        MaxHisActivityRate = 60;
+                        MinHisActivityRate = 40;
+                    }
+
+                    else if (patientMapper.ActivityRates.Contains("low"))
+                    {
+                        MaxHisActivityRate = 35;
+                        MinHisActivityRate = 25;
+                    }
+                }
+
+                MinCals = BMR * MinHisActivityRate / 100;
+                MaxCals = BMR * MaxHisActivityRate / 100;
+
+                patientMapper.MinCalories = (int)(MinCals + MaxCals);
+
+                patientMapper.MaxCalories = (int)(MaxCals + MaxCals);
+
+
+                Array.Resize(ref properties, properties.Length + 2);
+                properties[properties.Length - 1] = "MinCalories";
+                properties[properties.Length - 2] = "MaxCalories";
+
+
+            }
+
+
+            _Patientrepositry.Update(patientMapper, properties);
+            _unitOfWork.SaveChanges();
+        }
+
+    }
 }

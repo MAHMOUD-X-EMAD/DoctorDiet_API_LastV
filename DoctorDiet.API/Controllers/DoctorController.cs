@@ -27,7 +27,7 @@ namespace DoctorDiet.API.Controllers
         [HttpGet("doctorid")]
         public IActionResult GetDoctorById(string doctorid)
         {
-            var doctor = _doctorService.GetDoctorData(doctorid);
+            DoctorGetDataDto doctor = _doctorService.GetDoctorData(doctorid);
 
             return Ok(doctor);
 
@@ -35,24 +35,25 @@ namespace DoctorDiet.API.Controllers
 
 
 
-        [HttpPost("GetDoctorNotes")]
-        public IActionResult GetNote(GetDoctorNotesDTO getDoctorNotesDTO)
-        {
-            List<Notes> PatientNotes = _doctorService.GetDoctorNotes(getDoctorNotesDTO);
-            unitOfWork.CommitChanges();
-            return Ok(PatientNotes);
-        }
-
-        [HttpPost("AddDoctorNote")]
-        public IActionResult AddNote(DoctorNotesDTO doctorNotesDto)
-        {
-            _doctorService.AddNote(doctorNotesDto);
-            unitOfWork.CommitChanges();
-            return NoContent();
-        }
+    [HttpPost("GetDoctorNotes")]
+    public IActionResult GetDoctorNotes(GetDoctorNotesDTO getDoctorNotesDTO)
+    {
+      List<GetDoctorNoteData> DoctorNotes = _doctorService.GetDoctorNotes(getDoctorNotesDTO);
 
 
-        [HttpPut("EditDoctorData")]
+      return Ok(DoctorNotes);
+    }
+
+    [HttpPost("AddDoctorNote")]
+    public IActionResult AddNote(DoctorNotesDTO doctorNotesDto)
+    {
+      _doctorService.AddNote(doctorNotesDto);
+      unitOfWork.CommitChanges();
+      return NoContent();
+    }
+
+
+    [HttpPut("EditDoctorData")]
     public IActionResult EditDoctorData([FromForm] DoctorDataDTO doctorData, [FromForm] params string[] properties)
     {
       if (ModelState.IsValid)
@@ -74,7 +75,7 @@ namespace DoctorDiet.API.Controllers
         {
             if (ModelState.IsValid)
             {
-                IQueryable<DoctorGetDataDto> doctors = _doctorService.GetListOfDoctors();
+                List<ShowDoctorDTO> doctors = _doctorService.GetListOfDoctors();
                 return Ok(doctors);
             }
             else

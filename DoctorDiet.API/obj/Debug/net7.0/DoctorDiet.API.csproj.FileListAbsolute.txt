@@ -3192,3 +3192,738 @@ C:\Users\Electronica Care\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\scopedcss
 C:\Users\Electronica Care\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CopyComplete
 C:\Users\Electronica Care\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.genruntimeconfig.cache
 C:\Users\Electronica Care\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\ref\DoctorDiet.API.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.exe
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.deps.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.runtimeconfig.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Crc32.NET.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\jose-jwt.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\LibNoise.NetStandart.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\log4net.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Maybe.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\AStarNavigator.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\fNbt.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.LevelDB.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\SharpAvi.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.Fonts.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.AssemblyReference.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfoInputs.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfo.cs
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CoreCompileInputs.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.DoctorDiet.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.build.DoctorDiet.API.props
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DoctorDiet.API.props
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DoctorDiet.API.props
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\scopedcss\bundle\DoctorDiet.API.styles.css
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CopyComplete
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\refint\DoctorDiet.API.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.genruntimeconfig.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.API\obj\Debug\net7.0\ref\DoctorDiet.API.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.Development.json
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.json
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.exe
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.deps.json
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.runtimeconfig.json
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.pdb
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.ExpressionMapping.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Core.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Identity.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Crc32.NET.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Humanizer.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\jose-jwt.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\LibNoise.NetStandart.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\log4net.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Maybe.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\AStarNavigator.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\fNbt.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.LevelDB.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\NuGet.Frameworks.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\SharpAvi.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.Fonts.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.Drawing.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.CodeDom.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.Memory.Data.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.dll
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.pdb
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+F:\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.pdb
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.AssemblyReference.cache
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.GeneratedMSBuildEditorConfig.editorconfig
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfoInputs.cache
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfo.cs
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CoreCompileInputs.cache
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cs
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cache
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.DoctorDiet.API.Microsoft.AspNetCore.StaticWebAssets.props
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.build.DoctorDiet.API.props
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DoctorDiet.API.props
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DoctorDiet.API.props
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.pack.json
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.build.json
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.development.json
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\scopedcss\bundle\DoctorDiet.API.styles.css
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CopyComplete
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.dll
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\refint\DoctorDiet.API.dll
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.pdb
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.genruntimeconfig.cache
+F:\pull\DoctorDiet.API\obj\Debug\net7.0\ref\DoctorDiet.API.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.exe
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.deps.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.runtimeconfig.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Crc32.NET.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\jose-jwt.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\LibNoise.NetStandart.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\log4net.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Maybe.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\AStarNavigator.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\fNbt.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.LevelDB.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\SharpAvi.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.Fonts.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.AssemblyReference.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfoInputs.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfo.cs
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CoreCompileInputs.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.DoctorDiet.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.build.DoctorDiet.API.props
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DoctorDiet.API.props
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DoctorDiet.API.props
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\scopedcss\bundle\DoctorDiet.API.styles.css
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CopyComplete
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\refint\DoctorDiet.API.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.genruntimeconfig.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.API\obj\Debug\net7.0\ref\DoctorDiet.API.dll
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.AssemblyReference.cache
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfoInputs.cache
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfo.cs
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CoreCompileInputs.cache
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cs
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cache
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.dll
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\refint\DoctorDiet.API.dll
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.pdb
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.Development.json
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.json
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.exe
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.deps.json
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.runtimeconfig.json
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.pdb
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.ExpressionMapping.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Core.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Identity.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Crc32.NET.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Humanizer.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\jose-jwt.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\LibNoise.NetStandart.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\log4net.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Maybe.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\AStarNavigator.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\fNbt.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.LevelDB.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\NuGet.Frameworks.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\SharpAvi.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.Fonts.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.Drawing.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.CodeDom.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.Memory.Data.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\graduateproject\api\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.DoctorDiet.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.build.DoctorDiet.API.props
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DoctorDiet.API.props
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DoctorDiet.API.props
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.pack.json
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.build.json
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.development.json
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\scopedcss\bundle\DoctorDiet.API.styles.css
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CopyComplete
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.genruntimeconfig.cache
+D:\graduateproject\api\pull\DoctorDiet.API\obj\Debug\net7.0\ref\DoctorDiet.API.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\appsettings.json
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.exe
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.deps.json
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.runtimeconfig.json
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.API.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.ExpressionMapping.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Crc32.NET.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\jose-jwt.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\LibNoise.NetStandart.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\log4net.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Maybe.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\AStarNavigator.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\fNbt.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\MiNET.LevelDB.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\SharpAvi.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.Fonts.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\SixLabors.ImageSharp.Drawing.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.AssemblyReference.cache
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfoInputs.cache
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.AssemblyInfo.cs
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CoreCompileInputs.cache
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.DoctorDiet.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.build.DoctorDiet.API.props
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DoctorDiet.API.props
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DoctorDiet.API.props
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\scopedcss\bundle\DoctorDiet.API.styles.css
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.csproj.CopyComplete
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\refint\DoctorDiet.API.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\DoctorDiet.API.genruntimeconfig.cache
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.API\obj\Debug\net7.0\ref\DoctorDiet.API.dll

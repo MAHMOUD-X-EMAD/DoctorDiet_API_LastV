@@ -18,7 +18,18 @@ namespace DoctorDiet.Profiles
                 opt => opt.MapFrom(src => src.ApplicationUser.PhoneNumber))
 
                 .ForPath(dst => dst.email,
-                opt => opt.MapFrom(src => src.ApplicationUser.Email));
-    }
+                opt => opt.MapFrom(src => src.ApplicationUser.Email))
+
+                .ForPath(dst => dst.UserName,
+                opt => opt.MapFrom(src => src.ApplicationUser.UserName))
+
+                .ForPath(dst => dst.ProfileImage,
+                opt => opt.MapFrom(src => src.ApplicationUser.ProfileImage));
+
+
+
+
+
+        }
     }
 }

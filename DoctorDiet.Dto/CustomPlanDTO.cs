@@ -9,8 +9,7 @@ namespace DoctorDiet.Dto
 {
     public class CustomPlanDTO
     {
-        public int Id { get; set; }
-     
+        public int Id { get; set; } 
         public string PatientId { get; set; }
         public int CaloriesFrom { get; set; }
         public int CaloriesTo { get; set; }

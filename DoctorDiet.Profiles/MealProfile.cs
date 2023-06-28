@@ -9,13 +9,17 @@ using System.Threading.Tasks;
 
 namespace DoctorDiet.Profiles
 {
-  public class MealProfile:Profile
-  {
-    public MealProfile() {
-      CreateMap<MealDTO,Meal>()
-     .ForMember(dst => dst.Image, opt => opt.Ignore());
+    public class MealProfile : Profile
+    {
+        public MealProfile()
+        {
+            CreateMap<MealDTO, Meal>()
+           .ForMember(dst => dst.Image, opt => opt.Ignore());
+            CreateMap<Meal, MealDTO>();
+      
 
-
+            CreateMap<UpdateMealDTO, Meal>()
+                .ForPath(src => src.Image, opt => opt.Ignore());
+        }
     }
-  }
 }

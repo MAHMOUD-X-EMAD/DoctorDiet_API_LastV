@@ -8,6 +8,7 @@ namespace DoctorDiet.Dto
 {
     public class DoctorPatientBridgeDTO
     {
+        public string DoctorID { get; set; }
         public string FullName { get; set; }
     }
 }

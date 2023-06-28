@@ -355,3 +355,88 @@ C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\Doct
 C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\refint\DoctorDiet.Profiles.dll
 C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.pdb
 C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\ref\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.deps.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.AssemblyReference.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfoInputs.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfo.cs
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CoreCompileInputs.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CopyComplete
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\refint\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Profiles\obj\Debug\net7.0\ref\DoctorDiet.Profiles.dll
+F:\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.deps.json
+F:\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+F:\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+F:\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.AssemblyReference.cache
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.GeneratedMSBuildEditorConfig.editorconfig
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfoInputs.cache
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfo.cs
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CoreCompileInputs.cache
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CopyComplete
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.dll
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\refint\DoctorDiet.Profiles.dll
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.pdb
+F:\pull\DoctorDiet.Profiles\obj\Debug\net7.0\ref\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.deps.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.AssemblyReference.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfoInputs.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfo.cs
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CoreCompileInputs.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CopyComplete
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\refint\DoctorDiet.Profiles.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Profiles\obj\Debug\net7.0\ref\DoctorDiet.Profiles.dll
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.AssemblyReference.cache
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.GeneratedMSBuildEditorConfig.editorconfig
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfoInputs.cache
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfo.cs
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CoreCompileInputs.cache
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.dll
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\refint\DoctorDiet.Profiles.dll
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.pdb
+D:\graduateproject\api\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.deps.json
+D:\graduateproject\api\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+D:\graduateproject\api\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+D:\graduateproject\api\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\graduateproject\api\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\graduateproject\api\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\graduateproject\api\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CopyComplete
+D:\graduateproject\api\pull\DoctorDiet.Profiles\obj\Debug\net7.0\ref\DoctorDiet.Profiles.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.deps.json
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.AssemblyReference.cache
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfoInputs.cache
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.AssemblyInfo.cs
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CoreCompileInputs.cache
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.csproj.CopyComplete
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\refint\DoctorDiet.Profiles.dll
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\DoctorDiet.Profiles.pdb
+C:\Users\20106\Desktop\اجدد حاجه جدا\pull\DoctorDiet.Profiles\obj\Debug\net7.0\ref\DoctorDiet.Profiles.dll

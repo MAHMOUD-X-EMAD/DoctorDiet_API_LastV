@@ -14,10 +14,13 @@ namespace DoctorDiet.Repository.Repositories
     public class PlanRepository:IPlanRepository
     {
         private readonly Context _context;
+        private readonly IGenericRepository<Meal, int> _mealRepository;
 
-        public PlanRepository(Context context)
+        public PlanRepository(Context context, IGenericRepository<Meal, int> mealRepository)
         {
+
             _context = context;
+            _mealRepository = mealRepository;
         }
 
         public IQueryable<Plan> GetAll()
@@ -81,7 +84,13 @@ namespace DoctorDiet.Repository.Repositories
             }
         }
 
+        public Meal UpdateMealPlan(Meal mealCustomPlan, params string[] properties)
+        {
 
-       
+            _mealRepository.Update(mealCustomPlan, properties);
+
+            return mealCustomPlan;
+        }
+
     }
 }

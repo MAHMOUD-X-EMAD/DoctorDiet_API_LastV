@@ -30,7 +30,7 @@ namespace DoctorDiet.API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetPlanById(int id)
         {
-            var plan = _CustomPlanService.GetPlanById(id);
+            CustomPlan plan = _CustomPlanService.GetPlanById(id);
             if (plan == null)
                 return NotFound();
 
@@ -103,9 +103,12 @@ namespace DoctorDiet.API.Controllers
         [HttpPut("UpdateCustomMeal")]
         public IActionResult UpdateMealInCustomPlan( [FromForm] UpdateMealDTO mealCustomPlanDTO, [FromForm] params string[] properties)
         {
+            List<string> Properties = properties[0].Split(',').ToList();
+            string[] propertiesArray = Properties.ToArray();
+
             if (ModelState.IsValid)
             {
-                _CustomPlanService.UpdateMealInCustomPlan(mealCustomPlanDTO, properties);
+                _CustomPlanService.UpdateMealInCustomPlan(mealCustomPlanDTO, propertiesArray);
                 _unitOfWork.CommitChanges();
                 return Ok();
             }
@@ -113,5 +116,42 @@ namespace DoctorDiet.API.Controllers
 
         }
 
+        [HttpGet("GetDayCustomPlanByCusPlanId/{customPlanId}")]
+        public IActionResult GetDayCustomPlanByCusPlanId(int customPlanId)
+        {
+            if (ModelState.IsValid)
+            {
+                List<CustomDayDTO> DaysCusPlanDto = _CustomPlanService.GetDayCustomPlanByCusPlanId(customPlanId);
+                return Ok(DaysCusPlanDto);
+            }
+            return BadRequest();
+
+        }
+
+        [HttpGet("GetMealCustomPlanByCusDayId/{customDayId}")]
+        public IActionResult GetMealCustomPlanByCusDayId(int customDayId)
+        {
+            if (ModelState.IsValid)
+            {
+                List<CustomMealsDTO> MealsCusPlanDto = _CustomPlanService.GetMealsByCusDayId(customDayId);
+                return Ok(MealsCusPlanDto);
+            }
+            return BadRequest();
+
+        }
+
+
+
+        [HttpGet("GetCustomMealByID/{customDayId}")]
+        public IActionResult GetCustomMealByID(int customDayId)
+        {
+            if (ModelState.IsValid)
+            {
+              CustomMealsDTO MealsCusPlanDto = _CustomPlanService.GetCustomMealByID(customDayId);
+                return Ok(MealsCusPlanDto);
+            }
+            return BadRequest();
+
+        }
     }
 }

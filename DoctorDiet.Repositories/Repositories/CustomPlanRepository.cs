@@ -138,7 +138,10 @@ namespace DoctorDiet.Repository.Repositories
 
      public CustomDayDTO GetDayCustomPlan(int id)
         {
-            CustomPlan myPlan = Get(cusID => cusID.Id == id).Include(d => d.DaysCustomPlan).ThenInclude(bridge => bridge.DayMealCustomPlanBridge).ThenInclude(m=>m.MealCustomPlan).FirstOrDefault();
+            CustomPlan myPlan = Get(cusID => cusID.Id == id)
+            .Include(d => d.DaysCustomPlan)
+            .ThenInclude(bridge => bridge.DayMealCustomPlanBridge)
+            .ThenInclude(m=>m.MealCustomPlan).FirstOrDefault();
 
             DateTime currentDate = DateTime.Today;
             int dayCount = (currentDate - myPlan.DateFrom).Days;

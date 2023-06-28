@@ -16,7 +16,7 @@ namespace DoctorDiet.Repositories.Interfaces
             string Reject(SubscribeDto subscribeDto);
             string AddNote(PatientNotes patientNotes);
 
-            List<PatientNotes> GetNotes(GetPatientNotesDTO getPatientNotesDTO);
+    IQueryable<PatientNotes> GetNotes(GetPatientNotesDTO getPatientNotesDTO);
             PatientDTO Subscription(SubscribeDto subscribeDto);
     Patient GetByID(string id);
     PatientDTO GetPatientDTO(string PatientId);

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel;
@@ -11,17 +11,22 @@ namespace DoctorDiet.Models
 {
     public class PatientNotes:IBaseModel<int>
     {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        [ForeignKey("Patient")]
-        public string PatientId { get; set; }
-        [ForeignKey("Day")]
-        public int DayId { get; set; }
-        public string Text { get; set; }
-        public virtual Day Day { get; set; }
-        public virtual Patient Patient { get; set; }
+    [ForeignKey("Patient")]
+    public string PatientId { get; set; }
 
-        [DefaultValue("false")]
-        public bool IsDeleted { get; set; }
-    }
+    [ForeignKey("Doctor")]
+    public string DoctorId { get; set; }
+    [ForeignKey("DayCustomPlan")]
+    public int DayCustomPlanId { get; set; }
+    public string Text { get; set; }
+    public DateTime Date { get; set; }
+    public virtual DayCustomPlan DayCustomPlan { get; set; }
+    public virtual Patient Patient { get; set; }
+    public virtual Doctor Doctor { get; set; }
+
+    [DefaultValue("false")]
+    public bool IsDeleted { get; set; }
+  }
 }
